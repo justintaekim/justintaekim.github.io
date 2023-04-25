@@ -4,4 +4,4 @@ function toggleSongs() {
     songSecondHalf.classList.toggle("hidden")
 }
 
-document.getElementById("toggle-button").onclick = toggleSongs;
+document.getElementById("toggleButton").onclick = toggleSongs;
