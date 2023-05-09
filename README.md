@@ -1,2 +1,3 @@
 # justintaekim.github.io
-WDD
+
+Currently using Github Pages for a school assignment!
