@@ -1,5 +1,3 @@
-# Justin's Personal Portfolio
-
 <!-- This is a porfolio site template complete with a blog. Includes:
 
 - MDX and Markdown support
@@ -11,7 +9,7 @@
 - Vercel Speed Insights / Web Analytics
 - Geist font -->
 
-# Justin's Personal Website
+# Justin's Personal Portfolio
 
 Welcome to the repository for my personal website! This website showcases my portfolio, projects, resume, and blog. It serves as a platform to highlight my skills, experiences, and interests as a software engineer.
 
