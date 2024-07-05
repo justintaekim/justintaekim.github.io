@@ -28,7 +28,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           <div className="work-item">
             <Image
-              src="/images/work1.jpg"
+              src="/images/placeholder.png"
               alt="Work 1"
               width={400}
               height={300}
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           <div className="work-item">
             <Image
-              src="/images/work2.jpg"
+              src="/images/placeholder.png"
               alt="Work 2"
               width={400}
               height={300}
@@ -46,7 +46,7 @@ export default function Home() {
           </div>
           <div className="work-item">
             <Image
-              src="/images/work3.jpg"
+              src="/images/placeholder.png"
               alt="Work 3"
               width={400}
               height={300}
