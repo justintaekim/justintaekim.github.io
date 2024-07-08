@@ -14,7 +14,8 @@ export default function Home() {
         <p className="mt-4 text-lg">
           I am a recent UC Berkeley graduate seeking challenging opportunities
           in the Software Engineering. I am passionate about developing
-          innovative solutions and projects that improves people's daily lives.
+          innovative solutions and projects that improves people&apos;s daily
+          lives.
         </p>
         <button className="mt-4 px-6 py-3 bg-blue-600 text-white rounded-full">
           Learn More
