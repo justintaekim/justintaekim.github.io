@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const useFetchFact = () => {
   const [fact, setFact] = useState(null);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -22,7 +22,11 @@ const useFetchFact = () => {
         const data = await res.json();
         setFact(data.text);
       } catch (error) {
-        setError(error.message);
+        if (error instanceof Error) {
+          setError(error.message);
+        } else {
+          setError("An unknown error occurred");
+        }
       } finally {
         setLoading(false);
       }
