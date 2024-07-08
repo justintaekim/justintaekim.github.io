@@ -4,7 +4,7 @@ import styles from "./Sidebar.module.css";
 export default function Sidebar() {
   return (
     <aside
-      className={`p-20 ${styles.sidebar} flex-shrink-0 text-white p-4 lg:w-1/3 lg:h-screen lg:fixed`}
+      className={`${styles.sidebar} flex-shrink-0 text-white p-20 lg:w-1/3 lg:h-screen lg:fixed`}
     >
       <div className="flex flex-col items-center justify-center h-full">
         <Image
