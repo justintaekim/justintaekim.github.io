@@ -4,7 +4,7 @@ import styles from "./Sidebar.module.css";
 export default function Sidebar() {
   return (
     <aside
-      className={`${styles.sidebar} flex-shrink-0 text-white p-4 lg:w-1/3 lg:h-screen lg:fixed`}
+      className={`p-20 ${styles.sidebar} flex-shrink-0 text-white p-4 lg:w-1/3 lg:h-screen lg:fixed`}
     >
       <div className="flex flex-col items-center justify-center h-full">
         <Image
@@ -16,7 +16,8 @@ export default function Sidebar() {
         />
         <h1 className="text-3xl font-bold mt-4">I am Justin</h1>
         <p className="text-center mt-2">
-          A super simple responsive site template freebie crafted by HTML5 UP.
+          Software Engineer with a passion for full stack development,
+          innovative startup ideas, and AI technologies
         </p>
       </div>
     </aside>

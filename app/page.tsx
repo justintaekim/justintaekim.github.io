@@ -1,27 +1,28 @@
+"use client";
+
 import Image from "next/image";
+import useFetchFact from "./hooks/useFetchFact";
 
 export default function Home() {
+  const { fact, error, loading } = useFetchFact();
+
   return (
-    <div>
-      <section className="intro text-center">
-        <h2 className="text-4xl font-bold">Lorem ipsum dolor sit amet</h2>
+    <div className="p-8">
+      {/* About Me */}
+      <section className="">
+        <h2 className="text-4xl font-bold">About me!</h2>
         <p className="mt-4 text-lg">
-          Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque.
-        </p>
-        <p className="mt-4 text-lg">
-          Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi
-          lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis
-          tortor primis integer massa adipiscing id nisi accumsan pellentesque
-          commodo blandit enim arcu non at amet id arcu magna. Accumsan orci
-          faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque
-          cubilia.
+          I am a recent UC Berkeley graduate seeking challenging opportunities
+          in the Software Engineering. I am passionate about developing
+          innovative solutions and projects that improves people's daily lives.
         </p>
         <button className="mt-4 px-6 py-3 bg-blue-600 text-white rounded-full">
           Learn More
         </button>
       </section>
 
-      <section className="recent-work mt-16">
+      {/* Projects */}
+      <section className="mt-16">
         <h2 className="text-4xl font-bold text-center lg:text-left">
           Recent Work
         </h2>
@@ -54,6 +55,16 @@ export default function Home() {
             />
           </div>
         </div>
+      </section>
+      <section className="useless-fact mt-16 text-center">
+        {loading && <p>Loading...</p>}
+        {error && <p>Error: {error}</p>}
+        {fact && (
+          <p className="mt-4 text-lg">
+            <strong>Useless Fact of the day!: </strong>
+            {fact}
+          </p>
+        )}
       </section>
     </div>
   );
