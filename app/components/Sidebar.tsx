@@ -19,13 +19,15 @@ export default function Sidebar() {
         <Image
           src="/images/headshot.png"
           alt="Profile Picture"
-          className="rounded-full"
+          className="rounded-full shadow-2xl"
           width={150}
           height={150}
         />
         <h1 className="text-3xl font-bold mt-4">I am Justin</h1>
         <p className="text-center mt-2">Software Engineer</p>
-        <div className="flex space-x-4 mt-4">
+
+        {/* Icons */}
+        <div className="flex space-x-4 mt-10">
           <a
             href="https://www.linkedin.com/in/justintaekim"
             target="_blank"
@@ -59,6 +61,10 @@ export default function Sidebar() {
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
         </div>
+
+        <p className="mt-4 text-xs">
+          Copyright © 2024 Justin Kim. All Rights Reserved.
+        </p>
       </div>
     </aside>
   );
