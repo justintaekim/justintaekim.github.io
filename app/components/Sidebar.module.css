@@ -2,3 +2,13 @@
   background: url("/images/background.png") no-repeat center center;
   background-size: cover;
 }
+
+.iconBounce {
+  display: inline-block;
+  transition: transform 0.3s ease-out;
+}
+
+.iconBounce:hover {
+  transform: scale(1.5);
+  transition: transform 0.3s cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}

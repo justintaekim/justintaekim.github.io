@@ -57,12 +57,14 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Fun Fact Section */}
       <section className="useless-fact mt-16 text-center">
         {loading && <p>Loading...</p>}
         {error && <p>Error: {error}</p>}
         {fact && (
           <p className="mt-4 text-lg">
-            <strong>Useless Fact of the day!: </strong>
+            <strong>Fun Fact of the day!: </strong>
             {fact}
           </p>
         )}
