@@ -59,7 +59,7 @@ export default function Home() {
               University of California, Berkeley
             </h3>
             <p className="text-lg italic">B.A. in Computer Science</p>
-            <p className="text-lg">August 2018 - May 2024</p>
+            <p className="text-lg">May 2024</p>
           </div>
         </div>
         <div>
