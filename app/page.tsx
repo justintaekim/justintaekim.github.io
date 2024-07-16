@@ -31,7 +31,7 @@ export default function Home() {
           <button
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/19vOxRcnPG_EM_MPlzlouLCxqfQ4ztJry/view?usp=sharing",
+                "https://drive.google.com/file/d/1r62eOf4QMUpYpDDbFBaw-I9eRkjY40Mi/view?usp=sharing",
                 "_blank"
               )
             }
