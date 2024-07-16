@@ -62,9 +62,7 @@ export default function Sidebar() {
           </a>
         </div>
 
-        <p className="mt-4 text-xs">
-          Copyright © 2024 Justin Kim. All Rights Reserved.
-        </p>
+        <p className="lg:text-right mt-4 text-xs">© 2024 Justin Kim</p>
       </div>
     </aside>
   );
