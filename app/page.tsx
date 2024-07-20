@@ -59,7 +59,7 @@ export default function Home() {
               University of California, Berkeley
             </h3>
             <p className="text-lg italic">
-              Bachelor's degree in Computer Science
+              Bachelor&apos;s degree in Computer Science
             </p>
             <p className="text-lg">May 2024</p>
           </div>
