@@ -31,7 +31,7 @@ export default function Home() {
           <button
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1r62eOf4QMUpYpDDbFBaw-I9eRkjY40Mi/view?usp=sharing",
+                "https://drive.google.com/file/d/11uuy07ZS5K6XjhC8_5NqIN7pm36SGGQL/view?usp=sharing",
                 "_blank"
               )
             }
@@ -58,7 +58,9 @@ export default function Home() {
             <h3 className="text-2xl font-semibold">
               University of California, Berkeley
             </h3>
-            <p className="text-lg italic">B.A. in Computer Science</p>
+            <p className="text-lg italic">
+              Bachelor's degree in Computer Science
+            </p>
             <p className="text-lg">May 2024</p>
           </div>
         </div>
