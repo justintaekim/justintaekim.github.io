@@ -3,6 +3,9 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Sidebar from "./components/Sidebar";
 
+// Google Analytics
+import GoogleAnalytics from "./components/GoogleAnalytics";
+
 // fontawsome
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -24,6 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={montserrat.className}>
       <head>
+        <GoogleAnalytics />
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
       </head>
       <body>
