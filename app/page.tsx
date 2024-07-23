@@ -197,7 +197,7 @@ export default function Home() {
                 Thank you for visiting! Here&apos;s a fun fact for today :)
               </strong>
             </p>
-            <p className="mt-4 ">{fact}</p>
+            <p className="mt-4 text-base">{fact}</p>
           </div>
         )}
       </section>
