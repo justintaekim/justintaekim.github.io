@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <head>
-        <GoogleAnalytics gaId="G-XYZ" />
+        <GoogleAnalytics gaId="G-YKNMHY3NF6" />
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
       </head>
       <body>
