@@ -5,7 +5,8 @@ import "./globals.css";
 import Sidebar from "./components/Sidebar";
 
 // Google Analytics
-import GoogleAnalytics from "./components/GoogleAnalytics";
+// import GoogleAnalytics from "./components/GoogleAnalytics";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 // fontawsome
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -28,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <head>
-        <GoogleAnalytics />
+        <GoogleAnalytics gaId="G-XYZ" />
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
       </head>
       <body>
