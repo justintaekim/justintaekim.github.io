@@ -169,6 +169,18 @@ export default function Home() {
             ]}
           />
           <ExperienceCard
+            src="/images/pacman.svg"
+            alt="AI Pacman"
+            company="AI Pacman"
+            title=""
+            date="March 2024"
+            bullets={[
+              "Implemented DFS, BFS, UCS, and A* search algorithms to solve navigation problems in a Pacman environment. Developed heuristics for the Corners Problem and food-clearing challenges.",
+              "Designed agents using minimax, alpha-beta pruning, and expectimax algorithms for probabilistic environments involving Pacman and ghosts. Enhanced a reflex agent for improved performance.",
+              "Developed logical planning agents for Pacman using propositional logic and a SAT solver. Implemented path planning, localization, mapping, and simultaneous localization for complex Pacman scenarios.",
+            ]}
+          />
+          <ExperienceCard
             src="/images/gitlet.svg"
             alt="Project 2"
             company="Gitlet"
