@@ -23,7 +23,7 @@ export default function Sidebar() {
           width={150}
           height={150}
         />
-        <h1 className="text-3xl font-bold mt-4">I am Justin</h1>
+        <h1 className="text-3xl font-bold mt-4">Justin Kim</h1>
         <p className="text-center mt-2">Software Engineer</p>
 
         {/* Icons */}
