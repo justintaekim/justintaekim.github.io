@@ -28,10 +28,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.className}>
-      <head>
-        <GoogleAnalytics gaId="G-YKNMHY3NF6" />
-        <link rel="icon" href="/images/favicon.ico" sizes="any" />
-      </head>
       <body>
         <div className="min-h-screen lg:flex">
           <Sidebar />
@@ -40,6 +36,8 @@ export default function RootLayout({
           </main>
         </div>
       </body>
+
+      <GoogleAnalytics gaId="G-YKNMHY3NF6" />
     </html>
   );
 }
