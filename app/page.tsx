@@ -12,7 +12,7 @@ export default function Home() {
     <div className="p-8">
       {/* About Me */}
       <section className="my-10">
-        <h2 className="text-4xl font-bold">About me!</h2>
+        <h2 className="text-4xl font-bold">About me</h2>
         <p className="my-4 text-lg">
           Hello, welcome! My name is Justin, and I am a recent UC Berkeley
           graduate with a degree in Computer Science. I am passionate about
