@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import useFetchFact from "./hooks/useFetchFact";
-
 import ExperienceCard from "./components/ExperienceCard";
 
 export default function Home() {
@@ -85,7 +84,7 @@ export default function Home() {
         <h2 className="text-4xl font-bold text-center lg:text-left">
           Experience
         </h2>
-        <div className="grid grid-cols-1 gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 justify-items-center">
           <ExperienceCard
             src="/images/swiift.png"
             alt="SWiiFT"
@@ -154,7 +153,7 @@ export default function Home() {
         <h2 className="text-4xl font-bold text-center lg:text-left">
           Projects
         </h2>
-        <div className="grid grid-cols-1 gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 justify-items-center">
           <ExperienceCard
             src="/images/e2ee.svg"
             alt="Project 1"
