@@ -31,6 +31,16 @@ export default function RootLayout({
       <head>
         <GoogleAnalytics gaId="G-YKNMHY3NF6" />
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <meta property="og:title" content="Justin Kim" />
+        <meta
+          property="og:description"
+          content="Check out my portfolio and projects!"
+        />
+        <meta
+          property="og:image"
+          content="https://justintaekim.github.io/images/background.png"
+        />
+        <meta property="og:url" content="https://justintaekim.github.io" />
       </head>
       <body>
         <div className="min-h-screen lg:flex">
