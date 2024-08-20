@@ -60,7 +60,7 @@ export default function Home() {
             <p className="text-lg italic">
               Bachelor&apos;s degree in Computer Science
             </p>
-            <p className="text-lg">May 2024</p>
+            <p className="text-base">May 2024</p>
           </div>
         </div>
         <div>
