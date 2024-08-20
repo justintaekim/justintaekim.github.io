@@ -92,8 +92,9 @@ export default function Home() {
             title="Full-Stack Engineering Intern"
             date="Jun 2023 - Aug 2023"
             bullets={[
-              "Launched frontend and backend component development for user authentication within the React Native framework, seamlessly integrating Google Firebase services and building API endpoints.",
-              "Developed a robust database architecture to optimize data storage and management, enhancing the company’s ability to store and access critical user information.",
+              "Frontend and backend component development for user authentication",
+              "Google Firebase services and building API endpoints.",
+              "Developed a database architecture to optimize data storage and management",
             ]}
           />
           <ExperienceCard
@@ -103,9 +104,9 @@ export default function Home() {
             title="VP of Technology"
             date="Jan 2023 - May 2024"
             bullets={[
-              "Designed and developed the club’s main website and semesterly events website using React.js.",
-              "Promoted web design projects to redesign and enhance websites for local vendors using Figma.",
-              "Led 10+ people through semesterly team projects of developing user-friendly websites for other student organizations and local start-up clients in Berkeley.",
+              "Developed the club’s main and events website using React.js.",
+              "Promoted website redesigns for local vendors using Figma.",
+              "Led team projects of developing websites for other student orgs and local start-up clients.",
             ]}
           />
           <ExperienceCard
@@ -115,9 +116,8 @@ export default function Home() {
             title="Web3 Analyst Intern"
             date="Mar 2022 - Jul 2022"
             bullets={[
-              "Performed market research on the NFT market and followed up with the latest trends to help with the company’s own Web3 NFT project launch.",
-              "Wrote weekly reports on upcoming Crypto/DeFi/NFT/Metaverse projects for company executives.",
-              "Worked on improving/translating pitch deck that acquired series A funding of $3M.",
+              "Performed market research on the NFT marketfor the company’s own Web3 NFT project launch.",
+              "Worked on company's pitch deck that acquired series A funding of $3M.",
             ]}
           />
           <ExperienceCard
@@ -128,7 +128,7 @@ export default function Home() {
             date="Jun 2020 - Mar 2022"
             bullets={[
               "Served as a Squad Leader during Army boot camp, overseeing the accountability of a team of over a dozen soldiers.",
-              "Spearheaded community programs to foster social interaction and assist over 600 vulnerable individuals in combating food insecurity and COVID-19.",
+              "Spearheaded community programs to foster social interaction and assist over 600 vulnerable individuals during COVID-19.",
             ]}
           />
           <ExperienceCard
@@ -139,9 +139,7 @@ export default function Home() {
             date="Jun 2019 - Aug 2019"
             bullets={[
               "Created prototypes for sample product design models through 3D modeling and printing.",
-              "Designed prototype models for testing purposes using SolidWorks.",
-              "3D printed project prototypes for smart device encasements.",
-              "Worked with tolerancing and simulating the compatibility of each part in the design process.",
+              "Designed and 3D printed prototypes for testing purposes using SolidWorks.",
             ]}
           />
         </div>
@@ -163,8 +161,6 @@ export default function Home() {
             bullets={[
               "Designed an end-to-end encrypted file sharing system from scratch, supported by extensive design documents.",
               "Built a client application that allows users to authenticate, save, load, modify, and share files with controlled access.",
-              "Employed AES, RSA, HMAC, and SHA cryptosystems to strengthen security and mitigate potential breaches.",
-              "Created a comprehensive test suite to validate system’s functionality, including edge cases and data confidentiality.",
             ]}
           />
           <ExperienceCard
@@ -174,9 +170,8 @@ export default function Home() {
             title=""
             date="March 2024"
             bullets={[
-              "Implemented DFS, BFS, UCS, and A* search algorithms to solve navigation problems in a Pacman environment. Developed heuristics for the Corners Problem and food-clearing challenges.",
-              "Designed agents using minimax, alpha-beta pruning, and expectimax algorithms for probabilistic environments involving Pacman and ghosts. Enhanced a reflex agent for improved performance.",
-              "Developed logical planning agents for Pacman using propositional logic and a SAT solver. Implemented path planning, localization, mapping, and simultaneous localization for complex Pacman scenarios.",
+              "Implemented DFS, BFS, UCS, and A* search algorithms to solve navigation problems in a Pacman environment.",
+              "Designed agents using minimax, alpha-beta pruning, and expectimax algorithms for probabilistic environments involving Pacman and ghosts.",
             ]}
           />
           <ExperienceCard
@@ -187,9 +182,6 @@ export default function Home() {
             date="May 2022"
             bullets={[
               "Developed a version control system that mimics basic features of Git and implemented 15+ Git functions.",
-              "Built an efficient process to create, update, and remove files that worked seamlessly with the OS.",
-              "Managed persistence by assigning a serialized SHA-1 hash ID for changes in the commit tree.",
-              "Implemented merge-branch via utilizing BFS to find the shortest distance to the branches’ split point.",
               "Wrote design documents and extensive amount of unit, integration, and acceptance tests.",
             ]}
           />

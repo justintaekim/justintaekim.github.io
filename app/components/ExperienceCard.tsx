@@ -24,7 +24,7 @@ const ExperienceCard = ({
 
   return (
     <div
-      className="relative w-72 h-96 perspective cursor-pointer"
+      className="relative w-64 h-80 perspective cursor-pointer"
       onClick={() => setIsFlipped(!isFlipped)}
     >
       <div
@@ -40,16 +40,16 @@ const ExperienceCard = ({
             height={150}
             className="rounded object-cover mb-4"
           />
-          <h3 className="text-xl font-semibold">{company}</h3>
-          <p className="text-lg italic">{title}</p>
-          <p className="text-base">{date}</p>
+          <h3 className="text-lg font-semibold">{company}</h3>
+          <p className="text-base italic">{title}</p>
+          <p className="text-small">{date}</p>
         </div>
         <div className="absolute w-full h-full bg-gray-800 text-white shadow-lg rounded-lg backface-hidden transform rotate-y-180 flex flex-col items-center justify-center p-4">
-          <h2 className="text-xl font-bold">
+          <h2 className="text-lg text-center font-bold">
             <strong>{company}</strong>
           </h2>
-          <h3 className="text-lg italic">{title}</h3>
-          <h4 className="text-base">{date}</h4>
+          <h3 className="text-base text-center italic">{title}</h3>
+          <h4 className="text-small">{date}</h4>
           {description && <p className="mt-2 text-center">{description}</p>}
           {bullets && (
             <ul className="list-disc list-inside ml-4 mt-2">
